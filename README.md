@@ -1,5 +1,4 @@
-Bowron - Abernethy Chess Engine By Christopher Bowron
-http://www.cse.msu.edu/~bowronch/BACE
+# BCE - Bowron - Abernethy Chess Engine
 
 Once upon a time I wrote a small chess engine in Lisp.  Then I wanted
 that engine to go faster, so I rewrote it in C.  Then a while later I
@@ -19,15 +18,12 @@ under:
 	ddlchess - for the engine without learning
 
 If you make any modifications to BACE that you would like to
-contribute to me, please send me email at bowronch@msu.edu 
+contribute to me, please send me email at cwbowron@gmail.com
 
 If you are running BACE on a chess server please let me know the
 account name and server, I would be interested to see how it is doing.
 
--------------------
-    
-Known Errors / To Do
-
+## Known Errors / To Do
 
 1. sometimes fails to find a valid move under robofics/xboard (this
    could have been related to #2)
@@ -44,7 +40,7 @@ Known Errors / To Do
    
 3. learning seems to be FUBAR... 
    
---------------------
+## Acknowledgements
 
 Thanks to Dann Corbit for his many helpful hints, suggestions and
 code. 
