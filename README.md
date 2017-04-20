@@ -8,6 +8,10 @@ faster so I rewrote it in C.  Then for an AI course project, I added
 learning to the C version.  The result has evolved into what you will
 find in this archive.
 
+* [Project Proposal Presentation](doc/BACE_proposal.ppt)
+* [Final Presentation](doc/BACE_final_presentation.ppt)
+* [Project Paper](doc/BACE.pdf)
+
 This program is alternatively known as BACE for Bowron - Abernethy
 Chess Engine (for Rob Abernethy who was my partner is my AI project)
 or BCE for Boo's Chess Engine.  Either one works for me.   
