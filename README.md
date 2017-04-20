@@ -46,6 +46,6 @@ account name and server, I would be interested to see how it is doing.
    
 ## Acknowledgements
 
-Thanks to Dann Corbit for his many helpful hints, suggestions and
+Thanks to Dann Corbit for his many helpful hints, suggestions, and
 code. 
 
