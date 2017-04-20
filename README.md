@@ -14,8 +14,8 @@ or BCE for Boo's Chess Engine.  Either one works for me.
 
 I have two accounts at freechess.org that I sometimes run my engines
 under:
-	BACE     - for the engine with learning
-	ddlchess - for the engine without learning
+* BACE - for the engine with learning
+* ddlchess - for the engine without learning
 
 If you make any modifications to BACE that you would like to
 contribute to me, please send me email at cwbowron@gmail.com
