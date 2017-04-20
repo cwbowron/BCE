@@ -28,17 +28,17 @@ account name and server, I would be interested to see how it is doing.
 1. sometimes fails to find a valid move under robofics/xboard (this
    could have been related to #2)
 
-2. Null move search is not quite right... I believe that when doing a
-   search and getting interrupted causes board conflict problems, ie
-   pieces not getting replaced... should probably turn off polling
-   during a null search or something... or keep track of
-   the number of fake_domoves... 
+2. Null move search is not quite right.
 
-   most likely the undomove function should check to see if the move
-   it is undoing is an actual move, or a fake move... test to see if
-   move==dummymove or some such test... 
+I believe that when doing a search and getting interrupted causes board conflict problems, ie
+   pieces not getting replaced. Should probably turn off polling
+   during a null search or something,  or keep track of the number of `fake_domoves`. 
+
+   Most likely the `undomove` function should check to see if the move
+   it is undoing is an actual move, or a fake move. Test to see if
+   `move==dummymove` or something.
    
-3. learning seems to be FUBAR... 
+3. Learning seems to be FUBAR... 
    
 ## Acknowledgements
 
