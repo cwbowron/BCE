@@ -1,4 +1,4 @@
-## BCE - Bowron - Abernethy Chess Engine
+## BCE - Boo's Chess Engine (aka Bowron - Abernethy Chess Engine)
 
 Once upon a time I wrote a small chess engine in Lisp.  Then I wanted
 that engine to go faster, so I rewrote it in C.  Then a while later I
