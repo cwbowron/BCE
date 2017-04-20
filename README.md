@@ -30,7 +30,7 @@ account name and server, I would be interested to see how it is doing.
 
 2. Null move search is not quite right.
 
-I believe that when doing a search and getting interrupted causes board conflict problems, ie
+   I believe that when doing a search and getting interrupted causes board conflict problems, ie
    pieces not getting replaced. Should probably turn off polling
    during a null search or something,  or keep track of the number of `fake_domoves`. 
 
