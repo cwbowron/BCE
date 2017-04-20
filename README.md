@@ -24,9 +24,6 @@ under:
 If you make any modifications to BACE that you would like to
 contribute to me, please send me email at cwbowron@gmail.com
 
-If you are running BACE on a chess server please let me know the
-account name and server, I would be interested to see how it is doing.
-
 ## Known Errors / To Do
 
 1. Sometimes fails to find a valid move under robofics/xboard (this
