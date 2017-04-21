@@ -8,7 +8,7 @@ faster so I rewrote it in C.  Then for an AI course project, I added
 learning to the C version.  The result has evolved into what you will
 find in this archive.
 
-BCE was the basic for [pspChess](https://github.com/cwbowron/pspchess), an open-source chess game for the PlayStation Portable.
+BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-source chess game for the PlayStation Portable.
 
 * [Project Proposal Presentation](doc/BACE_proposal.ppt)
 * [Final Presentation](doc/BACE_final_presentation.ppt)
