@@ -6,7 +6,7 @@ wanted to do a better chess engine, with more features.  I am a big
 fan of Lisp so I wrote it in that.  Then, again I wanted it to be
 faster so I rewrote it in C.  Then for an AI course project, I added
 learning to the C version.  The result has evolved into what you will
-find in this archive. It is alternatively known as BACE (Bowron-Abernethy Chess Engine) or BCE (Boo's Chess Engine).  Rob Abernethy and I worked together to add the learning algorithm for an AI course.
+find in this archive. It is alternatively known as BACE (Bowron-Abernethy Chess Engine) or BCE (Boo's Chess Engine).  Rob Abernethy and I worked together to add the learning algorithm.
 
 BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-source chess game for the PlayStation Portable.
 
