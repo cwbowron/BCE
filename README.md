@@ -15,11 +15,14 @@ find in this archive.
 This program is alternatively known as BACE (Bowron-Abernethy Chess Engine [for Rob Abernethy, who was my AI project partner])
 or BCE (Boo's Chess Engine).  Either works for me.   
 
-I have two accounts at freechess.org that I sometimes run my engines
-under:
+BCE has played games on freechess.org under two accounts
 * BACE - for the engine with learning
+   * Blitz - 1908 (best: 1995)
+   * Lightning - 2028 (best: 2078)
 * ddlchess - for the engine without learning
-
+   * Blitz - 1947 (best: 2054)
+   * Lightning - 2057 (best: 2179)
+   
 If you make any modifications to BACE that you would like to
 contribute to me, please send me email at cwbowron@gmail.com
 
