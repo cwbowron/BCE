@@ -12,7 +12,7 @@ find in this archive.
 * [Final Presentation](doc/BACE_final_presentation.ppt)
 * [Project Paper](doc/BACE.pdf)
 
-This program is alternatively known as BACE (Bowron-Abernethy Chess Engine [for Rob Abernethy who was my partner is my AI project])
+This program is alternatively known as BACE (Bowron-Abernethy Chess Engine [for Rob Abernethy, who was my AI project partner])
 or BCE (Boo's Chess Engine).  Either works for me.   
 
 I have two accounts at freechess.org that I sometimes run my engines
