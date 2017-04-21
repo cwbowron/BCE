@@ -8,6 +8,8 @@ faster so I rewrote it in C.  Then for an AI course project, I added
 learning to the C version.  The result has evolved into what you will
 find in this archive.
 
+BCE was the basic for [pspChess](https://github.com/cwbowron/pspchess), an open-source chess game for the PlayStation Portable.
+
 * [Project Proposal Presentation](doc/BACE_proposal.ppt)
 * [Final Presentation](doc/BACE_final_presentation.ppt)
 * [Project Paper](doc/BACE.pdf)
@@ -25,7 +27,7 @@ BCE has played games on freechess.org under two accounts:
    * Lightning - 2057 (best: 2179)
    * Wild - 1742
    
-If you make any modifications to BACE that you would like to
+If you make any modifications to BCE that you would like to
 contribute to me, please send me email at cwbowron@gmail.com
 
 ## Known Errors / To Do
