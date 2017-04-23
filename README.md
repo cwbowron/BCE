@@ -16,19 +16,20 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 
 ## Features
 
-* NegaScout search
-* Quiescence search
+* Search
+  * NegaScout search
+  * Quiescence search
+  * Iterative deepening
+  * Null move search
+  * Transposition tables
+  * Aspiration Windows
+  * Move ordering
+* Pondering
 * Opening book
-* Iterative deepening
-* Null move search
-* Temporal difference learning
 * icsdrone / WinBoard interface
 * Adjustable search depth
 * FEN parsing
-* Pondering
-* Transposition tables
-* Aspiration Windows
-* Move ordering
+* Temporal difference learning
 
 ## Rating 
 
