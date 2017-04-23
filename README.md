@@ -25,6 +25,8 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * icsdrone / WinBoard interface
 * Adjustable search depth
 * FEN parsing
+* Pondering
+* Transposition tables
 
 ## Rating 
 
