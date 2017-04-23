@@ -19,6 +19,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * NegaScout search
 * Quiescence search
 * Opening book
+* Iterative deepening
 * Null move search
 * Temporal difference learning
 
