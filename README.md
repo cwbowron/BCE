@@ -14,6 +14,14 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * [Final Presentation](doc/BACE_final_presentation.ppt)
 * [Project Paper](doc/BACE.pdf)
 
+## Features
+
+* NegaScout search
+* Quiescence search
+* Opening book
+* Null move search
+* Temporal difference learning
+
 ## Rating 
 
 BCE has played games on freechess.org under two accounts:
