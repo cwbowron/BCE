@@ -28,6 +28,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * Pondering
 * Transposition tables
 * Aspiration Windows
+* Move ordering
 
 ## Rating 
 
