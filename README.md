@@ -24,9 +24,6 @@ BCE has played games on freechess.org under two accounts:
    * Lightning - 2057 (best: 2179)
    * Wild - 1742
    
-If you make any modifications to BCE that you would like to
-contribute to me, please send me email at cwbowron@gmail.com
-
 ## Known Errors / To Do
 
 1. Sometimes fails to find a valid move under robofics/xboard (this
