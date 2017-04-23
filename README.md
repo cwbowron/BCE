@@ -14,7 +14,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * [Final Presentation](doc/BACE_final_presentation.ppt)
 * [Project Paper](doc/BACE.pdf)
 
-## Features
+### Features
 
 * Search
   * NegaScout search
@@ -31,7 +31,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * FEN parsing
 * Temporal difference learning
 
-## Rating 
+### Rating 
 
 BCE has played games on freechess.org under two accounts:
 * BACE - for the engine with learning
@@ -43,7 +43,7 @@ BCE has played games on freechess.org under two accounts:
    * Lightning - 2057 (best: 2179)
    * Wild - 1742
    
-## Acknowledgements
+### Acknowledgements
 
 Thanks to Dann Corbit for his many helpful hints, suggestions, and
 code. 
