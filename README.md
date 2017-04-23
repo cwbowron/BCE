@@ -24,25 +24,7 @@ BCE has played games on freechess.org under two accounts:
    * Lightning - 2057 (best: 2179)
    * Wild - 1742
    
-## Known Errors / To Do
-
-1. Sometimes fails to find a valid move under robofics/xboard (this
-   could have been related to #2)
-
-2. Null move search is not quite right.
-
-   I believe that when doing a search and getting interrupted causes board conflict problems, ie
-   pieces not getting replaced. Should probably turn off polling
-   during a null search or something,  or keep track of the number of `fake_domoves`. 
-
-   Most likely the `undomove` function should check to see if the move
-   it is undoing is an actual move, or a fake move. Test to see if
-   `move==dummymove` or something.
-   
-3. Learning seems to be broken.
-   
 ## Acknowledgements
 
 Thanks to Dann Corbit for his many helpful hints, suggestions, and
 code. 
-
