@@ -27,6 +27,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * FEN parsing
 * Pondering
 * Transposition tables
+* Aspiration Windows
 
 ## Rating 
 
