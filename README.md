@@ -24,6 +24,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * Temporal difference learning
 * icsdrone / WinBoard interface
 * Adjustable search depth
+* FEN parsing
 
 ## Rating 
 
