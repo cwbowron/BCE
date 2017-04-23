@@ -23,6 +23,7 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 * Null move search
 * Temporal difference learning
 * icsdrone / WinBoard interface
+* Adjustable search depth
 
 ## Rating 
 
