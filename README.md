@@ -34,11 +34,11 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 ### Rating 
 
 BCE has played games on freechess.org under two accounts:
-* BACE - for the engine with learning
+* BACE - (learning enabled)
    * Blitz - 1908 (best: 1995)
    * Lightning - 2028 (best: 2078)
    * Wild - 1760
-* ddlchess - for the engine without learning
+* ddlchess - (learning disabled)
    * Blitz - 1947 (best: 2054)
    * Lightning - 2057 (best: 2179)
    * Wild - 1742
