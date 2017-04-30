@@ -34,14 +34,30 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
 ### Rating 
 
 BCE has played games on freechess.org under two accounts:
-* **BACE** (learning enabled)
-   * Blitz - 1908 (best: 1995)
-   * Lightning - 2028 (best: 2078)
-   * Wild - 1760
-* **ddlchess** (learning disabled)
-   * Blitz - 1947 (best: 2054)
-   * Lightning - 2057 (best: 2179)
-   * Wild - 1742
+
+#### BACE (learning enabled)
+
+```
+Last disconnected: Tue Mar  4, 14:37 EST 2003
+
+          rating     RD      win    loss    draw   total   best
+Blitz      1908    350.0    6740    3215     503   10458   1995 (25-Dec-2000)
+Standard   1529    350.0       1       5       0       6
+Lightning  2028    350.0     423     202      15     640   2078 (19-Dec-2000)
+Wild       1760    350.0       9       9       0      18
+```
+
+#### ddlchess (learning disabled)
+
+```
+Last disconnected: Sat Sep 22, 10:04 EST 2001
+
+          rating     RD      win    loss    draw   total   best
+Blitz      1947    350.0    6151    4913     813   11877   2054 (05-Jan-2001)
+Standard   1677    350.0    1180     868      81    2129   1975 (12-Aug-2000)
+Lightning  2057    350.0    2652    1648     170    4470   2179 (30-Aug-2000)
+Wild       1742    350.0       6      32       0      38
+```
    
 ### Acknowledgements
 
