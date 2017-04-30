@@ -24,10 +24,10 @@ BCE was the basis for [pspChess](https://github.com/cwbowron/pspchess), an open-
   * Transposition tables
   * Aspiration Windows
   * Move ordering
+  * Adjustable search depth
 * Pondering
 * Opening book
 * icsdrone / WinBoard interface
-* Adjustable search depth
 * FEN parsing
 * Temporal difference learning
 
