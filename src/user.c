@@ -10,6 +10,8 @@
 
 #include "bce.h"
 
+const char * FEATURES = "feature ping=0 sigint=1 sigterm=0 myname=\"BCE\" colors=1 san=0 done=1";
+
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 struct cmd { char *name; void (*func)(char*); char *help; };
 struct cmd commands[];
@@ -847,6 +849,10 @@ void cmd_load_binary_book(char *s)
 	printf("Error loading %s (binary)\n", s);
 }
 
+void cmd_protover(char *s)
+{
+   printf("%s\n", FEATURES);
+}
 
 struct cmd commands[] =
 {
@@ -912,6 +918,7 @@ struct cmd commands[] =
     { "undo", cmd_undo, "take back 1 move" },
     { "white", cmd_white,  "xboard/RoboFICS" },
     { "xboard", cmd_xboard, "xboard/RoboFICS" },
+    { "protover", cmd_protover, "icsDrone" },
     {    NULL, NULL, NULL }
 };
 
