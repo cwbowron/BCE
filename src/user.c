@@ -132,8 +132,8 @@ void cmd_demo(char *s)
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 void cmd_book(char *s){loadbook(bookfile);}
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
-void cmd_easy(char *s){/*ponder_mode = 0;*/}
-void cmd_hard(char *s){/*ponder_mode = 1;*/}
+void cmd_easy(char *s){ponder_mode = 0;}
+void cmd_hard(char *s){ponder_mode = 1;}
 void cmd_noexplain(char *s){explain_mode=0;}
 void cmd_nopost(char *s){thinking_mode = 0;}
 void cmd_post(char *s){thinking_mode = 1;}
