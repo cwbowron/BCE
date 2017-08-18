@@ -448,15 +448,16 @@ move think()
 	output("mate in %d\n", WIN-abs(best));
 
     output("%s", formatthoughts(depth_reached,best,duration/1000,best_line));
-    output("n/s: %d, table: %d-%d-%d\n",
-	   (int)(((double)search_info.nodes/(double)duration)*1000),
-	   tablehits[0],tablehits[1],tablehits[2]);
 
-    output("branch factor: %3.3f [%3.3f]\n", bf, branch_info.average);
-    output("depths searched: %2d, %2d, %2d, %2d, %2d\n",
+    /* output("n/s: %d, table: %d-%d-%d\n",
+	   (int)(((double)search_info.nodes/(double)duration)*1000),
+	   tablehits[0],tablehits[1],tablehits[2]); */
+
+    /* output("branch factor: %3.3f [%3.3f]\n", bf, branch_info.average); */
+    /* output("depths searched: %2d, %2d, %2d, %2d, %2d\n",
 	   search_info.move_depth[0],search_info.move_depth[1],
 	   search_info.move_depth[2],search_info.move_depth[3],
-	   search_info.move_depth[4]);
+	   search_info.move_depth[4]); */
 
     save_leaf(best_line, best_depth, best, 0);
 
