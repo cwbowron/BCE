@@ -20,7 +20,7 @@
 
 #define STATIC_PAWN_VALUE 1000
 
-#define WIN       (40 * STATIC_PAWN_VALUE)
+#define WIN       (100 * STATIC_PAWN_VALUE)
 #define LOSE      (-WIN)
 #define DRAW	  0
 #define STALEMATE 0
