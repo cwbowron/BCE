@@ -169,14 +169,14 @@ int playchess()
 	    {
 		if (robo_mode)
 		{
-		    tellics("mailmoves\n");
-		    tellics(
-			"message madhacker valid? = %d, move = %s, wouldbeincheckp() = %d, wouldbeinfullcheckp() = %d, pv = %s\n",
-			validmove(m),
-			movestring(m),
-			wouldbeincheckp(m),
-			wouldbeincheckfullp(m),
-			thoughts);
+		   /*  tellics("mailmoves\n"); */
+		   /*  tellics( */
+			/* "message madhacker valid? = %d, move = %s, wouldbeincheckp() = %d, wouldbeinfullcheckp() = %d, pv = %s\n", */
+			/* validmove(m), */
+			/* movestring(m), */
+			/* wouldbeincheckp(m), */
+			/* wouldbeincheckfullp(m), */
+			/* thoughts); */
 		    tellics("abort\n");
 		}
 		else

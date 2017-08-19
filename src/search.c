@@ -200,23 +200,18 @@ void signal_handler(int sig)
 }
 
 
-char thoughts[512];
 
-char *formatthoughts(int x, int best, long duration, move *moves)
+void print_thoughts(int x, int best, long duration, move *moves)
 {
-    char *b;
-    int j;
-
-    b = thoughts +
-	sprintf(thoughts,"%2d %8d %4ld %7d", x, best/10, duration,
-		search_info.nodes);
-
-    for (j=0;moves[j];j++)
-    {
-	b += sprintf(b," %s", movestring(moves[j]));
-    }
-    b+=sprintf(b,"\n");
-    return thoughts;
+   int j;
+   
+   printf("%2d %8d %4ld %12d", x, best/10, duration, search_info.nodes);
+   
+   for (j=0;moves[j];j++)
+   {
+      printf(" %s", movestring(moves[j]));
+   }
+   printf("\n");
 }
 
 /*
@@ -400,10 +395,8 @@ move think()
 		break;
 	    if (thinking_mode) 
 	    {
-		long dur = (get_ms()-starttime)/1000;
-		char * str = formatthoughts(x, best, dur, best_line);
-		
-		printf("%s", str);
+          long dur = (get_ms()-starttime)/1000;
+          print_thoughts(x, best, dur, best_line);
 	    }
 
 	    /*
@@ -444,19 +437,21 @@ move think()
     duration = (get_ms()-starttime);
     if (!duration) duration = 1;
     
-    if ((best>WIN-50)||(best<LOSE+50))
-	output("mate in %d\n", WIN-abs(best));
+    if ((best>WIN-50)||(best<LOSE+50)) {
+       output("mate in %d\n", WIN-abs(best));
+    }
 
-    output("%s", formatthoughts(depth_reached,best,duration/1000,best_line));
-    output("n/s: %d, table: %d-%d-%d\n",
+    print_thoughts(depth_reached,best,duration/1000,best_line);
+
+    /* output("n/s: %d, table: %d-%d-%d\n",
 	   (int)(((double)search_info.nodes/(double)duration)*1000),
-	   tablehits[0],tablehits[1],tablehits[2]);
+	   tablehits[0],tablehits[1],tablehits[2]); */
 
-    output("branch factor: %3.3f [%3.3f]\n", bf, branch_info.average);
-    output("depths searched: %2d, %2d, %2d, %2d, %2d\n",
+    /* output("branch factor: %3.3f [%3.3f]\n", bf, branch_info.average); */
+    /* output("depths searched: %2d, %2d, %2d, %2d, %2d\n",
 	   search_info.move_depth[0],search_info.move_depth[1],
 	   search_info.move_depth[2],search_info.move_depth[3],
-	   search_info.move_depth[4]);
+	   search_info.move_depth[4]); */
 
     save_leaf(best_line, best_depth, best, 0);
 

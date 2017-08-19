@@ -20,7 +20,7 @@
 
 #define STATIC_PAWN_VALUE 1000
 
-#define WIN       (40 * STATIC_PAWN_VALUE)
+#define WIN       (100 * STATIC_PAWN_VALUE)
 #define LOSE      (-WIN)
 #define DRAW	  0
 #define STALEMATE 0
@@ -79,7 +79,7 @@
 
 #define switch_sides()  (board->flags ^= turn_flag)
 
-#define PV_LENGTH	40
+#define PV_LENGTH	100
 
 #define TABLE_SIZE	 (1024*1024)
 
