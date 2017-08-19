@@ -208,7 +208,7 @@ char *formatthoughts(int x, int best, long duration, move *moves)
     int j;
 
     b = thoughts +
-	sprintf(thoughts,"%2d %8d %4ld %7d", x, best/10, duration,
+	sprintf(thoughts,"%2d %8d %4ld %12d", x, best/10, duration,
 		search_info.nodes);
 
     for (j=0;moves[j];j++)
