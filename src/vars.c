@@ -11,8 +11,8 @@ chessboard *board = NULL;
 book_and_table mem;
 
 int promopiece	 = queen;
-int midgamedepth = 8;
-int endgamedepth = 20;
+int midgamedepth = 10;
+int endgamedepth = 30;
 int searchdepth;
 long int searchtime   = 12000;	/* number of seconds*1000 to limit search */
 

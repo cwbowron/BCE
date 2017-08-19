@@ -74,13 +74,14 @@ void output(char *format, ...)
     vsprintf(buf, format, ap);
     va_end(ap);
     
-    if (robo_mode)
-    {
-	if (explain_mode)
+    if (robo_mode) {
+      if (explain_mode) {
 	    printf("tellics whisper %s", buf);
+      }
     }
-    else
+    else {
 	printf("%s", buf);
+    }
 }
 
 void cmd_big(char *s){printboard = printboardbig;}
@@ -135,11 +136,11 @@ void cmd_demo(char *s)
 void cmd_book(char *s){loadbook(bookfile);}
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 void cmd_easy(char *s){ponder_mode = 0;}
-void cmd_hard(char *s){ponder_mode = 1;}
+void cmd_hard(char *s){/*ponder_mode = 1;*/}
 void cmd_noexplain(char *s){explain_mode=0;}
 void cmd_nopost(char *s){thinking_mode = 0;}
 void cmd_post(char *s){thinking_mode = 1;}
-void cmd_explain(char *s){explain_mode=1;}
+void cmd_explain(char *s){/*explain_mode=1;*/}
 void cmd_random(char *s){}
 
 void cmd_eval(char *s){printf("Advantage : %4d\n", evaluate_verbose());}
@@ -153,17 +154,19 @@ void cmd_suggest(char *s){printf("Hint: %s\n", movestring(bce()));}
 void cmd_time(char *s){int v;sscanf(s, "%d", &v);chessclock[opp(tomove())] = v*10;}
 void cmd_otim(char *s){int v;sscanf(s, "%d", &v);chessclock[tomove()] = v*10;}
 
-void cmd_xboard(char *s)
-{
-    printboard = printboardblind;
-    xboard_mode = 1;
-}
-
 void cmd_robofics(char *s)
 {
     robo_mode=1;
     printboard = printboardblind;
     thinking_mode = 0;
+}
+
+void cmd_xboard(char *s)
+{
+  /* Treat xboard *as* RoboFics */
+  /* printboard = printboardblind; */
+  xboard_mode = 1;
+  cmd_robofics(s);
 }
 
 void cmd_undo(char *s)

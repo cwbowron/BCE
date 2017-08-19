@@ -20,9 +20,11 @@ int seed_with_time = 1;
 /* if we get interrupt in demo mode, turn white off */
 void myhandler(int interrupt)
 {
-    if (!robo_mode && !xboard_mode)
-	computer[1] = computer[0] = 0;
-    signal(SIGINT, myhandler);
+  if (!robo_mode && !xboard_mode) {
+    computer[1] = computer[0] = 0;
+  }
+  
+  signal(SIGINT, myhandler);
 }
 
 void showmoves(c)
