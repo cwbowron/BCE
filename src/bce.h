@@ -79,7 +79,7 @@
 
 #define switch_sides()  (board->flags ^= turn_flag)
 
-#define PV_LENGTH	40
+#define PV_LENGTH	100
 
 #define TABLE_SIZE	 (1024*1024)
 
